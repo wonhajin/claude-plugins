@@ -1,0 +1,15 @@
+{
+  "name": "wonhajin",
+  "description": "wonhajin의 Claude Code 플러그인",
+  "owner": { "name": "wonhajin" },
+  "plugins": [
+    {
+      "name": "privacy-mask",
+      "source": { "source": "github", "repo": "wonhajin/privacy_mask", "ref": "main" }
+    },
+    {
+      "name": "context-band",
+      "source": { "source": "github", "repo": "wonhajin/context_band", "ref": "main" }
+    }
+  ]
+}
