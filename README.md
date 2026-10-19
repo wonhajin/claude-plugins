@@ -1,4 +1,4 @@
-# claude_plugins
+# claude-plugins
 
 wonhajin의 Claude Code 플러그인 마켓플레이스(`wonhajin`)입니다. 목록만 두고, 각 플러그인은 자기 레포의 `main`에서 받아 옵니다.
 
@@ -10,7 +10,7 @@ wonhajin의 Claude Code 플러그인 마켓플레이스(`wonhajin`)입니다. �
 ## 설치
 
 ```bash
-claude plugin marketplace add wonhajin/claude_plugins
+claude plugin marketplace add wonhajin/claude-plugins
 claude plugin install privacy-mask@wonhajin
 claude plugin install context-band@wonhajin
 ```
