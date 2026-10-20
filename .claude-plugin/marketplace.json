@@ -5,11 +5,11 @@
   "plugins": [
     {
       "name": "privacy-mask",
-      "source": { "source": "github", "repo": "wonhajin/privacy_mask", "ref": "main" }
+      "source": { "source": "url", "url": "https://github.com/wonhajin/privacy_mask.git", "ref": "main" }
     },
     {
       "name": "context-band",
-      "source": { "source": "github", "repo": "wonhajin/context_band", "ref": "main" }
+      "source": { "source": "url", "url": "https://github.com/wonhajin/context_band.git", "ref": "main" }
     }
   ]
 }

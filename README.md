@@ -22,5 +22,7 @@ claude plugin install context-band@wonhajin
 `.claude-plugin/marketplace.json`의 `plugins`에 항목을 추가합니다. 이름은 kebab-case(`-`)로, 그 플러그인 `plugin.json`의 `name`과 같아야 합니다.
 
 ```json
-{ "name": "<plugin-name>", "source": { "source": "github", "repo": "wonhajin/<repo>", "ref": "main" } }
+{ "name": "<plugin-name>", "source": { "source": "url", "url": "https://github.com/wonhajin/<repo>.git", "ref": "main" } }
 ```
+
+`"source": "github"`(`owner/repo`)는 쓰지 않습니다. 그 형식은 `claude plugin update` 때 HTTPS 대체 없이 SSH로만 받아서, GitHub 계정에 SSH 키를 등록하지 않은 사람은 업데이트가 실패합니다(Claude Code 2.1.292 기준). `url`에 `https://` 주소를 주면 누구나 인증 없이 받습니다.
